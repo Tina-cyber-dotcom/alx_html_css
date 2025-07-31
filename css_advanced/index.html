@@ -3,78 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Butterfly Project</title>
+  <title>Butterfly Dark Landing Page</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="container">
-      <img src="images/logo.png" alt="Logo" class="logo" />
+      <img src="images/logo.png" alt="Logo" class="logo">
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#membership">Membership</a></li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1>Welcome to the Butterfly Experience</h1>
-        <p>Beauty, motion, and magic — brought to life in code.</p>
-        <img src="images/Object.png" alt="Hero Background Shape" class="object" />
-        <button class="play-button">
-          <img src="images/play.png" alt="Play Button" />
-        </button>
-      </div>
-    </section>
+  <section class="banner">
+    <h1>Welcome to the Butterfly Network</h1>
+    <p>Explore a dark-themed journey through learning and design.</p>
+    <button>Get Started</button>
+    <div class="banner-images">
+      <img src="images/1.png" alt="Preview 1">
+      <img src="images/2.png" alt="Preview 2">
+      <img src="images/3.png" alt="Preview 3">
+    </div>
+  </section>
 
-    <section class="features">
-      <div class="container">
-        <h2>Our Features</h2>
-        <div class="feature-grid">
-          <img src="images/1.png" alt="Feature 1" />
-          <img src="images/2.png" alt="Feature 2" />
-          <img src="images/3.png" alt="Feature 3" />
-          <img src="images/4.png" alt="Feature 4" />
-        </div>
-      </div>
-    </section>
+  <section class="quotes">
+    <blockquote>"Design is not just what it looks like and feels like. Design is how it works."</blockquote>
+    <cite>– Steve Jobs</cite>
+  </section>
 
-    <section class="testimonials">
-      <div class="container">
-        <h2>What People Say</h2>
-        <div class="testimonial">
-          <img src="images/smile.png" alt="Happy User" class="avatar" />
-          <p>“This experience was transformational!”</p>
-          <img src="images/rating.png" alt="5 Star Rating" />
-        </div>
+  <section id="videos" class="videos">
+    <h2>Featured Videos</h2>
+    <div class="video-grid">
+      <div class="video-card">
+        <img src="images/4.png" alt="Video 1">
+        <p>Intro to CSS</p>
       </div>
-    </section>
+      <div class="video-card">
+        <img src="images/5.png" alt="Video 2">
+        <p>Advanced Layouts</p>
+      </div>
+      <div class="video-card">
+        <img src="images/6.png" alt="Video 3">
+        <p>Dark UI Design</p>
+      </div>
+    </div>
+  </section>
 
-    <section class="gallery">
-      <div class="container">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-          <img src="images/5.png" alt="Gallery Image 1" />
-          <img src="images/6.png" alt="Gallery Image 2" />
-          <img src="images/7.png" alt="Gallery Image 3" />
-          <img src="images/8.png" alt="Gallery Image 4" />
-          <img src="images/9.png" alt="Gallery Image 5" />
-        </div>
-      </div>
-    </section>
-  </main>
+  <section id="membership" class="membership">
+    <h2>Join the Network</h2>
+    <p>Unlock all tutorials and resources with a premium membership.</p>
+    <button>Become a Member</button>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What is this platform about?</h3>
+      <p>It's a design-forward educational platform for developers and creatives.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can I access free content?</h3>
+      <p>Yes! Several videos and resources are available for free.</p>
+    </div>
+  </section>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Butterfly Inc. Crafted with heart.</p>
-    </div>
+    <p>&copy; 2025 Butterfly Network. All rights reserved.</p>
   </footer>
 </body>
 </html>
