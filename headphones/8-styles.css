@@ -35,7 +35,7 @@ ul {
 
 /* Hero Section */
 .banner {
-  background: url('assets/headphones_hero_1.jpg') no-repeat center center / cover;
+  background: url('images/headphones_hero_1.jpg') no-repeat center center / cover;
   min-height: 100vh;
   padding: 20px 0;
   display: flex;
@@ -283,7 +283,7 @@ ul {
 
 /* Results Section */
 .results-section {
-  background: url('assets/headphones_hero_2.jpg') no-repeat center center/cover; 
+  background: url('images/headphones_hero_2.jpg') no-repeat center center/cover; 
   position: relative;
   color: #fff;
   padding: 100px 20px;
